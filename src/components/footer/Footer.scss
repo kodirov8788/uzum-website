@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+.container {
+    width: 99%;
+    height: 450px;
+
+
+    button {
+        width: 700px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 300px;
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .boxs {
+        width: 99%;
+        height: 330px;
+        // border: 2px solid red;
+        display: flex;
+
+        .box {
+            width: 25%;
+            height: 300px;
+            font-size: 20px;
+            text-align: center;
+
+            h3 {
+                margin-left: 20px;
+                margin-top: 100px;
+            }
+
+            p {
+                margin-left: 20px;
+                padding-top: 13px;
+                cursor: pointer;
+
+            }
+        }
+
+        .box2 {
+            width: 25%;
+            height: 300px;
+            font-size: 20px;
+            text-align: center;
+
+            h3 {
+                margin-left: 20px;
+                margin-top: 100px;
+            }
+
+            p {
+                margin-left: 20px;
+                padding-top: 13px;
+                cursor: pointer;
+
+            }
+        }
+
+        .box3 {
+            width: 25%;
+            height: 300px;
+            font-size: 20px;
+            text-align: center;
+
+            h3 {
+                margin-left: 20px;
+                margin-top: 100px;
+            }
+
+            p {
+                margin-left: 20px;
+                padding-top: 13px;
+                cursor: pointer;
+
+            }
+        }
+
+        .box4 {
+            width: 25%;
+            height: 300px;
+
+
+            h5 {
+                margin-left: 40px;
+                margin-top: 80px;
+                font-size: 20px;
+
+            }
+
+            .small_box {
+                display: flex;
+                margin-left: 40px;
+                margin-top: 8px;
+
+                .one {
+                    font-size: 30px;
+
+                }
+
+                p {
+                    padding: 5px;
+                    cursor: pointer;
+
+                }
+            }
+
+            .p {
+                margin-top: 40px;
+                margin-left: 40px;
+                cursor: pointer;
+
+            }
+
+            .icons {
+                font-size: 30px;
+                margin-left: 40px;
+
+                .two {
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+
+            }
+
+
+        }
+    }
+
+    hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bottom {
+        width: 99%;
+        height: 30px;
+        display: flex;
+
+        h6 {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 17px;
+            margin-left: 330px;
+            font-size: 13px;
+            cursor: pointer;
+
+        }
+    }
+}
