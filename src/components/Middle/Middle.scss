@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mid {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    overflow: hidden;
+
+    .midimg {
+        margin: 10px auto;
+        width: 92%;
+        border-radius: 10px;
+        height: 99%;
+        overflow: hidden;
+
+        .midimg1 {
+            width: 100%;
+            height: 100%;
+            transition: .5s;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+
+    }
+}
