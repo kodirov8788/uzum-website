@@ -12,14 +12,13 @@ import 'swiper/css/autoplay'
 import "./Swiper.scss"
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai"
 
-import swiper1 from "../Images/swiper1.jpg"
-import swiper2 from "../Images/swiper2.jpg"
-import swiper3 from "../Images/swiper3.jpg"
-import swiper4 from "../Images/swiper4.jpg"
-import swiper5 from "../Images/swiper5.jpg"
-import swiper6 from "../Images/swiper6.jpg"
-import swiper7 from "../Images/swiper7.jpg"
-import swiper8 from "../Images/swiper8.jpg"
+import swiper1 from "../../images/swiper1.jpg"
+import swiper2 from "../../images/swiper2.jpg"
+import swiper3 from "../../images/swiper3.jpg"
+import swiper4 from "../../images/swiper4.jpg"
+import swiper5 from "../../images/swiper5.jpg"
+import swiper7 from "../../images/swiper7.jpg"
+import swiper8 from "../../images/swiper8.jpg"
 
 export default () => {
     return (
