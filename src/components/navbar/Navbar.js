@@ -19,7 +19,7 @@ function Navbar() {
             </div>
             <div className="nav_menu">
                 <div className="rect_icon">
-                    <HiRectangleGroup />
+                    <HiRectangleGroup className='hirec' />
                     <h2>Katalog</h2>
                 </div>
                 <div className="nav_input">
