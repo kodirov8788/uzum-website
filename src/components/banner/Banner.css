@@ -1,0 +1,12 @@
+.banner {
+    width: 70%;
+    margin: auto;
+    height: 600px;
+
+}
+
+.banner img {
+    border-radius: 20px;
+    object-fit: contain;
+    object-fit: cover;
+}
