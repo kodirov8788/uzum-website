@@ -8,17 +8,17 @@
         align-items: center;
 
         form{
-            width: 85%;
+            width: 85% !important;
             height: 70%;
-            margin-left: 0;
+            margin-left: 0 !important;
 
             button{
-                width: 80%;
+                width: 80% !important;
             }
         }
         .uzum-bac {
             width: 50%;
-            margin-left: 0;
+            margin-left: 0 !important;
             // border: 1px solid red;
             
             img {
