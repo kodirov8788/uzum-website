@@ -15,7 +15,7 @@ function Navbar() {
                 </div>
             </div>
             <div className="nav_logo">
-                <img src={logo} alt="" />
+                <img src={ logo } alt="" />
             </div>
             <div className="nav_menu">
                 <div className="rect_icon">
@@ -32,7 +32,9 @@ function Navbar() {
             <div className="nav_end">
                 <div className="">
                     <BiUser />
-                    <h2>Kirish</h2>
+                    <h2>
+                        <a href="admin">Kirish</a>
+                    </h2>
                 </div>
                 <div className="">
                     <AiOutlineHeart />
