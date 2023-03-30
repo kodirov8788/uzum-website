@@ -11,6 +11,7 @@ import NavBottom from './components/nav_bottom/NavBottom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
     <Navbar />
     <NavBottom />
     <BrowserRouter>
@@ -20,6 +21,8 @@ root.render(
         <Route path='admin' element={<UzumAdmin />} />
       </Routes>
     </BrowserRouter>
+
+
   </React.StrictMode>
 );
 
