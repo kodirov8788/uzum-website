@@ -4,11 +4,12 @@ import "./Single.scss"
 function Single() {
 
     const product = useLocation().state
-    // console.log(product)
+    console.log(product)
     return (
         <div className='single'>
             <img src={product.image} alt="" />
             <h1>{product.title}</h1>
+            <p>{product.description}</p>
         </div>
     )
 }
